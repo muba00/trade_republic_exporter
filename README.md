@@ -25,7 +25,7 @@ First, clone this repository. Then, install the necessary dependencies.
 git clone https://github.com/muba00/trade_republic_exporter
 
 # Navigate to the project directory
-cd trade-republic-exporter
+cd trade_republic_exporter
 
 # Install required packages
 pip install -r requirements.txt
