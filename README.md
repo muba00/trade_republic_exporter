@@ -28,4 +28,7 @@ cd trade-republic-exporter
 
 # Install required packages
 pip install -r requirements.txt
+
+# Run
+python main.py report.pdf
 ```
