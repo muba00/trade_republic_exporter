@@ -34,4 +34,6 @@ pip install -r requirements.txt
 python main.py report.pdf
 ```
 
+It will generate trading_universe.csv file in the same directory.
+
 You can download the latest version of report [here](https://assets.traderepublic.com/assets/files/DE/Instrument_Universe_DE_en.pdf).
