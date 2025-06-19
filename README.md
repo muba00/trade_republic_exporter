@@ -1,6 +1,6 @@
 # Trade Republic Exporter
 
-A simple Python tool to extract a list of securities (stocks, ETFs) and their ISINs from a Trade Republic PDF document and export them to a clean CSV file.
+A simple Python tool to extract a list of stocks and their ISINs from a Trade Republic PDF document and export them to a clean CSV file.
 
 ## Features
 
@@ -18,11 +18,12 @@ A simple Python tool to extract a list of securities (stocks, ETFs) and their IS
 
 ## How to Use
 
-### 1. Installation
-
-First, clone this repository or download the files. Then, install the necessary dependencies.
+First, clone this repository. Then, install the necessary dependencies.
 
 ```bash
+# Clone the repo
+git clone https://github.com/muba00/trade_republic_exporter
+
 # Navigate to the project directory
 cd trade-republic-exporter
 
@@ -32,3 +33,5 @@ pip install -r requirements.txt
 # Run
 python main.py report.pdf
 ```
+
+You can download the latest version of report [here](https://assets.traderepublic.com/assets/files/DE/Instrument_Universe_DE_en.pdf).
